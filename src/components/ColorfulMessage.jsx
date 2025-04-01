@@ -1,4 +1,5 @@
 export const ColorfulMessage = ({color,children}) => {
+    console.log("--ColorfulMessage--")
     const contentStyle = {
         color,
         fontSize: '18px'
